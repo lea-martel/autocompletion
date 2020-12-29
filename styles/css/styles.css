@@ -1,2 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 10px;
+    padding: 0px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.autocomplete {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+}
+input {
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+input[type="text"] {
+    background-color: #f2f8fe;
+    width: 100%;
+}
+input[type="submit"] {
+    background-color: #63a5f0;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-block {
+    position: absolute;
+    max-width: 500px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(228, 237, 244, 0.8);
+    border: 1px solid #D5E3EC;
+    max-height: 500px;
+    overflow: auto;
+}
+
 
 
