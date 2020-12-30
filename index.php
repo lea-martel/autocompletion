@@ -30,6 +30,7 @@
 <script>
     function auto(value) {
         let html = '<div class="search-content">';
+        html += '<div class="autocomplete">';
         html += '<div class="search-input">';
         html += '</div>'
         html += '</div>'
