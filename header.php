@@ -1,6 +1,6 @@
 <section class="searchNav">
 
-	<div class="imgNav"><img src="logo2.png" width = "160"></div>
+	<div class="imgNav"><a href="index.php"><img src="logo2.png" width = "160"></a></div>
 
 </section>
 
