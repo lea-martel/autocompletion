@@ -1,0 +1,197 @@
+/*GENERAL*/
+
+body{
+	margin:0;
+	font-family: arial;
+}
+
+/*HEADER*/
+
+.searchNav{
+	position:relative;
+	background-color: #60b0f4;
+}
+
+.formNav {
+	position:absolute;
+	top:2%;
+	left:12%;
+	display: flex;
+	margin-left:2%;
+	align-items: center;
+	width:100%;
+}
+
+.searchBar{
+	display:flex;
+	flex-direction: column;
+	width:40%;
+	border-top-right-radius:25px;
+	border-top-left-radius:25px;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+	border:2px solid #608af4;
+	background-color:white;
+	
+}
+
+.searchInput{
+	display:flex;
+	justify-content: space-between;
+	width:95%;
+	padding:1.9%;
+
+}
+
+.searchInput input{
+
+	border:none;
+	outline: none;
+	width:100%;
+
+}
+
+.searchInput button{
+
+	background-color:white;
+	border:none;
+
+}
+
+.searchInput button i{
+
+	color:#60b0f4;
+
+}
+
+.result,.resultNull{
+	margin: 0;
+	padding:2%;
+}
+
+.result:hover{background-color:#60b0f4;}
+
+
+.autocompletion a{
+	text-decoration: none;
+	color:black;
+	
+}
+
+.autocompletion a:hover{
+
+	color:white;
+
+}
+
+
+
+/* ACCUEIL */
+		
+
+.img{
+	display:flex;
+	justify-content: center;
+	width:100%;
+}
+
+.searchHome{
+	margin-top:8%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.formHome{
+	display: flex;
+	justify-content: center;
+	width:100%;
+	padding:3%;
+	margin:0;
+}
+
+.input{
+	border: 2px solid #60b0f4;
+	border-radius:5px;
+	width:50%;
+	padding:1%;
+}
+
+.formHome button {
+
+	background-color:white;
+	border:none;
+	margin-left:.5%;
+	outline:none;			
+
+}
+
+.formHome button i {
+	color:#60b0f4;
+	font-size:35px;
+	border:2px solid #60b0f4;
+	border-radius:5px;
+	padding: 15%;
+
+}
+
+.formHome button i:hover{
+
+	transition: .5s;
+	color:white;
+	background-color:#60b0f4;
+
+}
+
+/*RECHERCHE*/
+
+.searchDisplay{
+	margin-top:5%;
+	margin-left:15%;
+	margin-right:15%;
+}
+
+.searchDisplay a{
+	text-decoration: none;
+	
+}
+
+.searchDisplay a p{
+	padding-bottom:5%;
+	border-bottom:0.1px solid #60b0f4;
+
+}
+
+.searchDisplay a:hover{
+	text-decoration: underline;
+}
+
+.element{
+
+}
+
+/* ELEMENT */
+
+.elementMain{
+	display: flex;
+	justify-content: center;
+	margin-top:10%;
+}
+
+
+.elementMain table,th,td{
+	border:.1px solid #60b0f4;
+
+}
+
+.elementMain th {
+	color:#60b0f4;
+}
+
+
+
+
+
+
+
