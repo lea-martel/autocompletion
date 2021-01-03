@@ -32,6 +32,7 @@
         let html = '<div class="search-content">';
         html += '<div class="autocomplete">';
         html += '<div class="search-input">';
+        html += value.nom_pays;
         html += '</div>'
         html += '</div>'
         return html + '</div>'
