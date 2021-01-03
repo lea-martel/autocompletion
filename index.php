@@ -42,7 +42,7 @@
         let value = $(this).val();
         let offset = $(this).offset();
         $.ajax({
-            url: 'search.php',
+            url: 'action.php',
             method: 'POST',
             dataType: 'json',
             data: {
