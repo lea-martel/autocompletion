@@ -20,14 +20,10 @@ input {
     font-size: 16px;
     border-radius: 4px;
 }
+
 input[type="text"] {
     background-color: #f2f8fe;
     width: 100%;
-}
-input[type="submit"] {
-    background-color: #2f2f2f;
-    color: #fff;
-    cursor: pointer;
 }
 
 .search-block {
