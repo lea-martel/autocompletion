@@ -22,16 +22,16 @@
         <div class="autocomplete">
             <input class="search-input" type="text" placeholder="Recherche ta destination">
         </div>
-        <input type="submit">
+        <button class="btn" type="submit">Rechercher</button>
     </form>
 </main>
 </body>
 </html>
 <script>
     function auto(value) {
-        let html = '<div class="search-content">';
-        html += '<div class="autocomplete">';
-        html += '<div class="search-input">';
+        let html = '<div class="search-content_">';
+        html += '<div class="autocomplete_">';
+        html += '<div class="search-input_">';
         html += value.nom_pays;
         html += '</div>'
         html += '</div>'
@@ -54,6 +54,7 @@
                 data.forEach((value) => {
                     html += auto(value);
                 })
+
                 if ($('.search-block').length === 0) {
                     let divSearch = $('<div></div>');
                     divSearch.addClass('search-block');
@@ -68,6 +69,11 @@
                     divSearch.stop(true, true).slideDown();
                     divSearch.html(html);
                 }
+
+                $('.search-input_').click(function (){
+                    $('.search-input').val($(this).html())
+
+                })
             },
             error: (error) => {
                 console.log(error.responseText)
@@ -75,11 +81,13 @@
         });
     })
     $('body').click(function (e) {
-        let div = $(this).find('.search-input');
+        let div = $(this).find('.search-input_');
         let div2 = $(this).find('.search-block');
+        console.log(e.target)
         if (div2.length) {
-            if ((!$(e.target).is(div) && !$.contains(div[0], e.target)) && (!$(e.target).is(div2) && !$.contains(div2[0], e.target))) {
+            if ((!$(e.target).is(div2) && !$.contains(div2[0], e.target))) {
                 div2.stop(true, true).slideUp();
+                console.log('dd')
             }
         }
     })
