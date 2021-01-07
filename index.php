@@ -42,6 +42,7 @@
         e.preventDefault();
         let value = $(this).val();
         let offset = $(this).offset();
+
         $.ajax({
             url: 'action.php',
             method: 'POST',
@@ -68,6 +69,8 @@
                     let divSearch = $('.search-block');
                     divSearch.stop(true, true).slideDown();
                     divSearch.html(html);
+
+                    console.log(html);
                 }
 
                 $('.search-input_').click(function (){
