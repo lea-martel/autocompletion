@@ -33,21 +33,13 @@
 					<thead>
 						<tr>
 							<th>Id</th>
-							<th>Code</th>
-							<th>Alpha 2</th>
-							<th>Alpha 3</th>
-							<th>Nom en anglais</th>
-							<th>Nom en français</th>
+							<th>Nom pays</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
 							<td><?php echo $data['id'] ?></td>
-							<td><?php echo $data['code'] ?></td>
-							<td><?php echo $data['alpha2'] ?></td>
-							<td><?php echo $data['alpha3'] ?></td>
-							<td><?php echo $data['nom_en_gb'] ?></td>
-							<td><?php echo $data['nom_fr_fr'] ?></td>
+							<td><?php echo $data['nom_pays'] ?></td>
 						</tr>
 					</tbody>
 				</table>
