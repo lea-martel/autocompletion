@@ -12,7 +12,7 @@
 
 		<section class="searchHome">
 
-			<div class="img"><img src="logo.png" width = "900"></div>
+			<div class="img"><img src="logo.png"></div>
 
 			<form action="index.php" method="POST" class="formHome">
 
