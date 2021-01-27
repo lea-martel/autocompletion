@@ -215,14 +215,30 @@ body{
 	}
 
 	.formNav {
-	position:absolute;
-	top:3%;
-	left:25%;
-	display: flex;
-	margin-left:2%;
-	align-items: center;
-	width:100%;
-}
+		position:absolute;
+		top:3%;
+		left:25%;
+		display: flex;
+		margin-left:2%;
+		align-items: center;
+		width:100%;
+	}
+
+	.searchInput{
+	display:flex;
+	justify-content: space-between;
+	width:95%;
+	padding:1.9%;
+
+	}
+
+	.searchInput input{
+		margin-left:5%;
+	}
+
+	#submitNav{
+		margin-right:5%;
+	}
 
 
 	
